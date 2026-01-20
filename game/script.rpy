@@ -32,6 +32,7 @@ label start:
 
     nvl show dissolve
 
+    nvl_narrator "Hello world this is Tsilla"
     nvl_narrator "Every morning, I would awake to the smell of hot cocoa that came from the kitchen."
     nvl_narrator "Our room was warm, bathed in sunlight."
     nvl_narrator "There was an empty spot in bed, right to where I lay, still full of Amélie’s shape."
