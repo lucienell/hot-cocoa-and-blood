@@ -38,6 +38,7 @@ label start:
         "meeting":
             jump sc2
 
+
         "kink arrive":
             jump sc3
 
