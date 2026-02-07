@@ -1,7 +1,7 @@
 label breakfast:
     
     # Start by playing some music.
-    play music "chocolate & blood - idea 01 - 2026-01-19 1352 - loop.ogg"
+    play music "track 01 - amoureuses.ogg"
 
     # Show a background
     scene bg bedroom
