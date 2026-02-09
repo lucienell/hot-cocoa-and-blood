@@ -2,8 +2,7 @@
 
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
-define dom = Character(_("Leïla"), color="#30dada")
-define sub = Character(_("Amélie"), color="#f24f4f")
+## Definitions moved to definitions.rpy
 
 # define positions.
 transform right:
