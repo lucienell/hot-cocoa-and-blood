@@ -66,7 +66,7 @@ define gui.name_text_font = "DejaVuSans.ttf"
 define gui.interface_text_font = "DejaVuSans.ttf"
 
 ## The size of normal dialogue text.
-define gui.text_size = 33
+define gui.text_size = 35
 
 ## The size of character names.
 define gui.name_text_size = 45
@@ -130,8 +130,12 @@ define gui.namebox_tile = False
 ## The placement of dialogue relative to the textbox. These can be a whole
 ## number of pixels relative to the left or top side of the textbox, or 0.5 to
 ## center.
-define gui.dialogue_xpos = 402
+define gui.dialogue_xpos = 425
 define gui.dialogue_ypos = 45
+
+## Interline for the dialogue
+
+define gui.dialogue_line_spacing = 12
 
 ## The maximum width of dialogue text, in pixels.
 define gui.dialogue_width = 1116
@@ -394,10 +398,12 @@ define gui.nvl_text_xalign = 0.0
 
 ## The position, width, and alignment of nvl_thought text (the text said by the
 ## nvl_narrator character.)
-define gui.nvl_thought_xpos = 360
-define gui.nvl_thought_ypos = 0
-define gui.nvl_thought_width = 1170
+define gui.nvl_thought_xpos = 385
+define gui.nvl_thought_ypos = 25
+define gui.nvl_thought_width = 1145
 define gui.nvl_thought_xalign = 0.0
+
+define gui.nvl_thought_line_spacing = 20
 
 ## The position of nvl menu_buttons.
 define gui.nvl_button_xpos = 675

@@ -158,6 +158,7 @@ style say_dialogue:
     xpos gui.dialogue_xpos
     xsize gui.dialogue_width
     ypos gui.dialogue_ypos
+    line_spacing gui.dialogue_line_spacing
 
     adjust_spacing False
 
@@ -1405,6 +1406,7 @@ style nvl_thought:
     min_width gui.nvl_thought_width
     textalign gui.nvl_thought_xalign
     layout ("subtitle" if gui.nvl_text_xalign else "tex")
+    line_spacing gui.nvl_thought_line_spacing
 
 style nvl_button:
     properties gui.button_properties("nvl_button")
