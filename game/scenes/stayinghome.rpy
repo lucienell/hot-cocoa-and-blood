@@ -1,7 +1,9 @@
 label stayinghome:
     # Code done directly by Tsilla trying to mimic Chloe, will need to be proofread
-    
-    
+
+    # Music.
+    play music "track 07 - noise.ogg"
+
     # scene bg black
 
     nvl_narrator """

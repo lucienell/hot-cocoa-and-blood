@@ -1,4 +1,7 @@
 label meeting:
+
+    # Music.
+    play music "track 07 - noise.ogg"
     
     scene black
     nvl show dissolve
@@ -54,6 +57,8 @@ label meeting:
     # Tanit: quelle scène ici? rue? continuer bar?
 
     stop music fadeout 1.0
+
+    play music "track 07 - noise.ogg"
 
     nvl show dissolve
     hide bg bar

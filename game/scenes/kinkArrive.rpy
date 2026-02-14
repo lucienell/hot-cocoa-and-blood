@@ -1,5 +1,8 @@
 label kinkArrive:
 
+    # Music.
+    play music "track 01 - amoureuses.ogg"
+
     scene bg bedroom night
     show dom at left
     show sub at right
@@ -188,20 +191,25 @@ label kinkArrive:
     I could see how much it mattered to her to be accepted for who she was.
     """
 
-    # Tanit: Dissolve sprites and nvl, add end card for the demo "Thanks for playing the demo"
-    nvl hide dissolve
-    nvl clear
-    hide dom
-    hide sub
-    with dissolve
-
-    show black with dissolve
-
-    nvl show dissolve
-
-    nvl_narrator """
-    Thanks for playing the demo.
-    """
-
-    nvl hide dissolve
-    nvl clear
+#    SARAH: It seems that we now have content after that, so I removed this sequence.
+#
+#    # Music.
+#    play music "track 07 - noise.ogg"
+#
+#    # Tanit: Dissolve sprites and nvl, add end card for the demo "Thanks for playing the demo"
+#    nvl hide dissolve
+#    nvl clear
+#    hide dom
+#    hide sub
+#    with dissolve
+#
+#    show black with dissolve
+#
+#    nvl show dissolve
+#
+#    nvl_narrator """
+#    Thanks for playing the demo.
+#    """
+#
+#    nvl hide dissolve
+#    nvl clear
