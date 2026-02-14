@@ -1,6 +1,6 @@
 label kinkArrive:
 
-    scene bg bedroom
+    scene bg bedroom night
     show dom at left
     show sub at right
     nvl show dissolve
@@ -83,7 +83,9 @@ label kinkArrive:
     nvl clear
 
     show letter
+    with dissolve
     # Need to scan the letter I wrote. It's in French, so we'll need the translation on screen.
+    # Tanit: added dissolve to letter
     pause
 
     nvl show dissolve
@@ -95,6 +97,9 @@ label kinkArrive:
     """
 
     nvl clear
+
+    hide letter
+    with dissolve
 
     nvl_narrator """
 
@@ -182,3 +187,21 @@ label kinkArrive:
 
     I could see how much it mattered to her to be accepted for who she was.
     """
+
+    # Tanit: Dissolve sprites and nvl, add end card for the demo "Thanks for playing the demo"
+    nvl hide dissolve
+    nvl clear
+    hide dom
+    hide sub
+    with dissolve
+
+    show black with dissolve
+
+    nvl show dissolve
+
+    nvl_narrator """
+    Thanks for playing the demo.
+    """
+
+    nvl hide dissolve
+    nvl clear

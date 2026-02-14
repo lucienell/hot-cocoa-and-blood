@@ -35,7 +35,7 @@ label breakfast:
     dom "Good morning, my love"
 
     show sub at right
-    dom "Ah! You’re awake! Good morning darling!"
+    sub "Ah! You’re awake! Good morning darling!"
 
     "The moment she heard me, she perked up. Her head darted towards me in a swift motion, and she was all smiles,
     not unlike a lamb who has just seen her mother and runs towards her, elated to see her again, and nuzzles against her wool."

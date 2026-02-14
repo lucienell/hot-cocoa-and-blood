@@ -5,6 +5,8 @@ label meeting:
 
     nvl_narrator "I fell in love with Amélie at the first sight of her."
 
+    play music "track 02 - bar.ogg"
+
     show bg bar with dissolve
     
     nvl_narrator " We met at a queer bar.{w} She was working behind the counter, she wore a harness over her shirt: her countenance was sensual, sophisticated, and she moved with ease as she prepared cocktail after cocktail."
@@ -49,8 +51,15 @@ label meeting:
     sub "Don’t hesitate to come back."
     sub "You seem really sweet and, if you’d like, I’d love to be your friend."
 
+    # Tanit: quelle scène ici? rue? continuer bar?
+
+    stop music fadeout 1.0
+
     nvl show dissolve
-    show black with dissolve
+    hide bg bar
+    hide dom
+    hide sub
+    with dissolve
 
     nvl_narrator """
     We met again afterwards, first at her bar, later at an association, and then as friends.{w} I got the opportunity to better know her. To see how cheerful and outgoing she was, even when she wasn’t behind a counter.

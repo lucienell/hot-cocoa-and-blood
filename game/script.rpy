@@ -37,9 +37,11 @@ label start:
         "meeting":
             jump sc2
 
-
         "kink arrive":
             jump sc3
+
+        "past of leila":
+            jump sc4
 
         "quit":
             return
@@ -49,18 +51,15 @@ label start:
     call introduction
 
     label sc1:
-    scene bg chapter with fade
-    centered "{size=72}Chapter 1"
     call breakfast
 
     label sc2:
-    scene bg chapter with fade
-    centered "{size=72}Chapter 2"
     call meeting
 
     label sc3:
-    scene bg chapter with fade
-    centered "{size=72}Chapter 3"
     call kinkArrive
+
+    label sc4:
+    call pastleila
 
     return
