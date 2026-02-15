@@ -49,6 +49,9 @@ label start:
         "distance":
             jump sc6
 
+        "nomoreBDSM":
+            jump sc7
+
         "quit":
             return
 
@@ -75,6 +78,9 @@ label start:
     call distance
 
     label sc7:
+    call nomoreBDSM
+
+    label sc8:
     call stayinghome
 
     return
