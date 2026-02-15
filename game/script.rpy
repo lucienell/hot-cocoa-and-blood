@@ -43,6 +43,12 @@ label start:
         "past of leila":
             jump sc4
 
+        "figth":
+            jump sc5
+
+        "distance":
+            jump sc6
+
         "quit":
             return
 
@@ -61,5 +67,14 @@ label start:
 
     label sc4:
     call pastleila
+
+    label sc5:
+    call fight
+
+    label sc6:
+    call distance
+
+    label sc7:
+    call stayinghome
 
     return
