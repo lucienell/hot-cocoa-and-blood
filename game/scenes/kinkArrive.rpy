@@ -1,5 +1,8 @@
 label kinkArrive:
 
+    # Music.
+    play music "track 01 - amoureuses.ogg"
+
     scene bg bedroom night
     show dom at left
     show sub at right

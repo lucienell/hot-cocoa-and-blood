@@ -1,5 +1,8 @@
 label introduction:
 
+    # Music.
+    play music "track 07 - noise.ogg"
+
     define options.preference.afm_time = 25
     centered """
     TW : Toxic relationship, Knife play, NEEDS TO BE COMPLETED

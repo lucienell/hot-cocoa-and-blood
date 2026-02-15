@@ -1,6 +1,6 @@
 label pastleila:
     
-    # Start by playing some music.
+    # Music.
     play music "track 04 - introspection.ogg"
 
     # Show a background
