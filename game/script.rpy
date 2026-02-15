@@ -49,8 +49,20 @@ label start:
         "distance":
             jump sc6
 
+        "menu 2":
+            jump choose2
+
+        "quit":
+            return
+
+    label choose2:
+    menu:
+
         "nomoreBDSM":
             jump sc7
+
+        "burnout":
+            jump sc8
 
         "quit":
             return
@@ -81,6 +93,9 @@ label start:
     call nomoreBDSM
 
     label sc8:
+    call burnout
+
+    label sc9:
     call stayinghome
 
     return
