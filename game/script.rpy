@@ -58,11 +58,14 @@ label start:
     label choose2:
     menu:
 
-        "nomoreBDSM":
+        "no more BDSM":
             jump sc7
 
         "burnout":
             jump sc8
+    
+        "staying home":
+            jump sc9
 
         "quit":
             return
