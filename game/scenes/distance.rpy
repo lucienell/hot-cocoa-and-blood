@@ -1,7 +1,7 @@
 label distance:
 
     # Music.
-    play music "track 04 - amoureuses.ogg"
+    play music "track 05 - discordantes.ogg" if_changed
 
     # Show a background
     scene bg bedroom
@@ -45,6 +45,7 @@ label distance:
     """
 
     nvl clear
+    play music "track 07 - noise.ogg" fadeout 1.0 fadein 1.0
     scene bg funeral
     with fade
 
@@ -57,6 +58,7 @@ label distance:
     """
 
     nvl clear
+    play music "track 02 - bar.ogg"
     scene bg bar
     with fade
 
@@ -72,6 +74,7 @@ label distance:
 
     nvl_narrator "I wonder how much her actions have been influenced by loneliness.{w} When she felt so dissatisfied with the results of a scene,{w} when she asked for marks that would last for more than a day…{w} had she dreamt of me while she was at work?{w} Of what we would do together when we finally had time during our days off?{w} Was it about having a reminder?"
 
+    play music "track 05 - discordantes.ogg" fadeout 1.0 fadein 1.0
     scene bg bedroom
 
     nvl_narrator """

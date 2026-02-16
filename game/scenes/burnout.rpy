@@ -21,6 +21,7 @@ label burnout:
 # Background: inspired by Cris et Chuchotements
 # Night club music?
     nvl clear
+    play music "track 02 - bar.ogg"
     scene bg bar
     with fade
 
@@ -35,7 +36,7 @@ label burnout:
 # Sprite tired
     nvl_narrator "But once the party was over… she was spent, and none of her energy remained."
 
-
+    play music "track 04 - introspection.ogg"
     scene bg bedroom night
     with fade
 
@@ -107,7 +108,7 @@ label burnout:
     scene bg introspection
     with fade
 
-    play music "track 04 - introspection.ogg"
+    play music "track 04 - introspection.ogg" if_changed
 
 # Introspection
     nvl show dissolve

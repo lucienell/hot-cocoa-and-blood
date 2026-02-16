@@ -1,7 +1,7 @@
 label fight:
     
     # Music.
-    play music "track 04 - amoureuses.ogg"
+    play music "track 05 - discordantes.ogg"
 
     # Show a background
     scene bg bedroom
