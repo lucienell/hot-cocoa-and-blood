@@ -1,8 +1,5 @@
 label knife:
 
-    # Music.
-    play music "track 04 - introspection.ogg"
-
     # Show a background
     scene bg bedroom
     with fade
@@ -10,6 +7,9 @@ label knife:
     show dom at left
     show sub at right
     nvl show dissolve
+
+    # Music.
+    play music "track 07 - noise.ogg"
 
     nvl_narrator """
       Still.
@@ -22,6 +22,8 @@ label knife:
     """
 
     nvl clear
+
+    play music "track 06 - angoisse.ogg" fadeout 54.0 fadein 54.0
 
     nvl_narrator """
       I let myself get drunk with the knowledge that I was the reason why Amélie functioned,{w} that it was thanks to me that she could leave her bed in the morning:{w} I was healing her, and that made me a Goddess in her eyes.
@@ -131,6 +133,9 @@ label knife:
     """
     nvl clear
 
+    stop music fadeout 0.5
+    play music "track 06 - angoisse.ogg" fadeout 13.5 fadein 13.5 volume 2.0
+
     nvl_narrator """
       The evening arrived.
 
@@ -184,15 +189,22 @@ label knife:
       “It really makes me want to see you break.”{w} She shivers - my voice must have been sufficiently cruel.{w}
     """
 
+
     nvl clear
     nvl_narrator """
       Take her wrist.{w} Grab it forcefully.{w} Make her know that she cannot resist, that you won’t allow it:{w} if she resists, you will put her in her place.{w} Grab harder, twist her arm until it hurts and she calms down.{w} But she let me, and I didn’t have to do that.{w} I realised that I could not tie her on her back if I were to carve it later.{w} I didn’t want to have to deal with unlocking the cuffs later just to turn her around.{w} Improvise.{w} I could have told her.{w} No.{w} If she wants to be a victim, you need to turn her around yourself.{w} Pull her towards you.{w} Look into her eyes.{w} Grin.{w} Be dangerous.{w} There, you can move her body:{w} pin her to the bed.{w} Use your weight.{w} Laugh when the air leaves her lungs.{w} She’s yours to mess up.{w} She cannot do anything.{w} She has no power.{w}
     """
 
+    stop music fadeout 1.0
+
     nvl clear
     nvl_narrator """
-      Look at her.{w} Breathe.
+      Look at her.{w} Breathe.{w=1.0}.{w=1.0}.{w=1.0}
+    """
 
+    play music "track 03 - stress.ogg" fadein 27 volume 0.9
+
+    nvl_narrator """
       Lock the cuff to the side of the bed.{w} She’s mock-protesting, like she doesn’t understand why you’re doing this to her.{w} “What- why- why are you acting like that, Mistress?”{w} You know, little slut.{w} You asked for this.{w} You deserve this.{w} Shut her up, use more of your weight.{w} You still have another arm to go, and then the legs.{w} The arm is easy to catch, even if she flails.{w} She’s on her back, you’re on top of her.
     """
 
@@ -303,6 +315,7 @@ label knife:
     # Can you make that sentence slow?
     dom "After this, you won’t ever be able to escape."
 
+    stop music fadeout 1.0
     nvl show dissolve
     nvl_narrator """
       The knife came into contact with her back.
@@ -315,6 +328,8 @@ label knife:
 
       For all of Amélie’s complaints about knives’ edges being dull,{w} I knew how easy it was to pierce the skin.{w} You don’t really need anything sharp.
     """
+
+    play music "track 03 - stress.ogg" fadein 27.0 volume 1.2
 
     nvl clear
 
@@ -431,6 +446,7 @@ label knife:
 
     "I kept playing the role."
     # Leïla looks heavily dissociative. Head towards the shoulder. Feels sick. Shadow over her face. Hair is a mess.
+
     dom "There.{w} You’re perfect."
     dom "My sweet, submissive doll.{w} All for me to own, for the rest of your life."
     dom "You can stop crying now."
@@ -539,6 +555,7 @@ label knife:
     "She relaxed her body and slumped into the bed."
 
     # Amélie’s sprite : face obscured.
+    stop music fadeout 54.0
     nvl show dissolve
     nvl_narrator """
       She kept crying.
@@ -574,6 +591,7 @@ label knife:
     "It felt like an eternity but, eventually, she moved to hold me in her arms."
     "She pushed her head so deep into my shoulder. She was gripping me so tight."
 
+    play music "track 06 - angoisse.ogg" fadeout 5.0 fadein 5.0 volume 1.0
 
     # Sprite : smiling, crying, hearts.
     sub "…Oh, God, that was amazing."
