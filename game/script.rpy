@@ -67,6 +67,9 @@ label start:
         "staying home":
             jump sc9
 
+        "knife":
+            jump sc10
+
         "quit":
             return
 
@@ -100,5 +103,8 @@ label start:
 
     label sc9:
     call stayinghome
+    
+    label sc10:
+    call knife
 
     return
