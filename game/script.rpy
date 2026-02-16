@@ -70,6 +70,9 @@ label start:
         "knife":
             jump sc10
 
+        "credits":
+            jump sc11
+
         "quit":
             return
 
@@ -107,4 +110,6 @@ label start:
     label sc10:
     call knife
 
+    label sc11:
+    call credits
     return
