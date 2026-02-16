@@ -1,5 +1,8 @@
 label kinkArrive:
 
+    # Music.
+    play music "track 01 - amoureuses.ogg"
+
     scene bg bedroom night
     show dom at left
     show sub at right
@@ -10,39 +13,38 @@ label kinkArrive:
     
     I could notice that a shadow loomed over her head whenever there came the topic of intimacy:{w} the girl who kept talking about sex toys, past partners and unusual kinks had become so demure that she would never ask for us to have sex.
     
-    While she had often rested her head on my shoulder or hugged me without a thought when we were friends, she no longer dared hold my hand without my expressed consent.
-    
-    Sometimes, she unconsciously groped my chest, and this made me smile, but still she apologised when she noticed what she had just done.
+    While she had often rested her head on my shoulder or hugged me without a thought when we were friends,{w} she no longer dared hold my hand without my expressed consent.
     """
 
     nvl clear
 
     nvl_narrator """
+    Sometimes, she unconsciously groped my chest, and this made me smile,{w} but still she apologised when she noticed what she had just done.
+
     Yes. I could tell that she was not fully herself when we lay together in the same bed.{w} When we kissed and cuddled, naked, and I humped her, feeling so lucky to be with her, her thoughts were far, far away.
+
+    It worried me.
     """
 
     nvl clear
    
     nvl_narrator """
-    It worried me.
-
-    I loved her. I didn’t want sex to be a burden to her, and I apologised - I thought I had gone too far and too fast.
+    I loved her.{w} I didn’t want sex to be a burden to her, and I apologised -{w} I thought I had gone too far and too fast.
     
-    I told her that I had presumed that she really loved sex because she kept calling herself a “slut”, and that I could wait, or not have any sex altogether; that she was more important than any lust{w} - but this made her quiver and shake her head.
-    
-    \n
-    \n
-    \n
-
-    "Please, no. No. I, I like sex. I just. I don’t want you to hate me."
+    I told her that I had presumed that she really loved sex because she kept calling herself a “slut”,{w} and that I could wait, or not have any sex altogether;{w} that she was more important than any lust{w} - but this made her quiver and shake her head.
     """ 
-    
+
+    nvl hide dissolve
     nvl clear
 
+    sub "Please, no. No. I, I like sex. I just. I don’t want you to hate me."
+
+    nvl show dissolve
+    
     nvl_narrator """
     I assured her that I could never hate her.
     
-    Still, Amélie could not bring herself to tell me what worried her: she blushed and refused to look me in the eyes.
+    Still, Amélie could not bring herself to tell me what worried her:{w} she blushed and refused to look me in the eyes.
 
     I told her I could wait until she was ready to talk, and that I would always be there, ready to listen…{w} but it was obvious that it had weighed on her. 
     
@@ -54,11 +56,11 @@ label kinkArrive:
     nvl_narrator """
     I tentatively took some guesses to relieve her: had something happened to her?
     
-    A previous partner?{w} (No - well, not really){w}
+    A previous partner?{w} (No - well, not really)
 
-    Was she afraid to ruin our relationship?{w} (A nod){w} 
+    Was she afraid to ruin our relationship?{w} (A nod)
     
-    If she feared I would hate her… was it that she did not find me desirable?
+    If she feared I would hate her…{w} was it that she did not find me desirable?
     """
 
     nvl hide dissolve
@@ -91,35 +93,51 @@ label kinkArrive:
     nvl show dissolve
 
     nvl_narrator """
-    She handed it to me. 
-    
-    The whole time that I read, she nervously drummed her fingers together, always fidgeting, so certain that I would flee.
-    """
+      Sorry.
 
+      It’s hard for me to talk about that.{w} I really love you and I’m scared I will scare you away if I tell you what I want.{w} What I need.
+
+      I have really hard kinks.{w} Violent ones.{w} I’m scared you’ll think I’m crazy,{w} that you’ll tell me it’s insane.
+
+      I’m scared of your pity.
+
+      I want to be hurt.{w} {i}Really{/i} hurt.{w} To be used like a toy, a victim, a prey.{w} To be mocked when I cry, when I ask for mercy, and to be hit even more.
+    """
     nvl clear
 
+    nvl_narrator """
+      You love me. You want to cherish me.
+
+      And that’s why I fear you will refuse to do that -{w} you’re so gentle.{w} So kind.
+
+      You deserve better than me.
+
+      I don’t want you to hate me.
+    """
+    nvl clear
     hide letter
     with dissolve
 
     nvl_narrator """
+    She handed it to me. 
+    
+    The whole time that I read, she nervously drummed her fingers together, always fidgeting, so certain that I would flee.
 
     I felt so touched, being allowed to see her in such a vulnerable light, so ready to break.{w} I was honoured that she chose to trust me in spite of the fear that clearly held her.
     
-    So I assured her of my love, and of my understanding: that I would not try to “fix her”, that I did not think that she was weird, that I did not think she was hateful for wanting to be hurt.
-    
-    I had long suspected that she was into BDSM - the choker, the constant puns, her attitude were such a giveaway - and I loved her for who she was.
+    So I assured her of my love, and of my understanding:{w} that I would not try to “fix her”,{w} that I did not think that she was weird,{w} that I did not think she was hateful for wanting to be hurt.
     """
 
     nvl clear
 
     nvl_narrator """
-    If she wanted me to hurt her, if that’s what it took for her to enjoy sex, then I was ready to give this to her.
+    I had long suspected that she was into BDSM -{w} the choker, the constant puns, her attitude were such a giveaway -{w} and I loved her for who she was.
 
-    I promised her I would never judge her, that I would never make her feel ashamed of her desires, and that I wanted to know more so I could satisfy her.
+    If she wanted me to hurt her,{w} if that’s what it took for her to enjoy sex,{w} then I was ready to give this to her.
 
-    I will always remember how she leaped to hug me, so ready to cry, so full of relief.
+    I promised her I would never judge her,{w} that I would never make her feel ashamed of her desires,{w} and that I wanted to know more so I could satisfy her.
 
-    I held her tight, vowing I would never let go.
+    I will always remember how she leaped to hug me, so ready to cry, so full of relief.{w} I held her tight, vowing I would never let go.
     """
 
     nvl clear
@@ -134,7 +152,7 @@ label kinkArrive:
     
     There was an ease to Amélie’s voice and to her movements:{w} what had only been puns about wanting to be stepped on and various remarks that she always retracted when I pressed her had now become open fantasies.
     
-    She hugged me, sank her hands into my body, delighted that she could touch me, delighted I would touch her in return.
+    She hugged me, sank her hands into my body,{w} delighted that she could touch me,{w} delighted I would touch her in return.
     """
 
     nvl clear
@@ -142,7 +160,7 @@ label kinkArrive:
     nvl_narrator """
     Faced with a bottle of alcohol, she asked me if I wanted to make her drink until she could not stand, so I could have my way with her.
 
-    When a friend smoked, she later told me that she longed to be used like an ashtray, to have cigarettes ground into her{w} - that she swooned when she thought of the pain this would bring her, all for so small a convenience!
+    When a friend smoked, she later told me that she longed to be used like an ashtray,{w} to have cigarettes ground into her{w} - that she swooned when she thought of the pain this would bring her, all for so small a convenience!
     
     The appeal was in the sheer unbalance.
     """
@@ -158,9 +176,9 @@ label kinkArrive:
     nvl_narrator """
     Throughout our conversations, I listened.
     
-    I never looked away, I never expressed the pity or the disgust that she feared I would feel when I would know who she truly was.
+    I never looked away,{w} I never expressed the pity or the disgust that she feared I would feel when I would know who she truly was.
 
-    I endeavoured to treat her with respect.{w} I did not interrupt her, I answered truthfully when she asked me what I thought and if I would agree to do this to her.
+    I endeavoured to treat her with respect.{w} I did not interrupt her,{w} I answered truthfully when she asked me what I thought and if I would agree to do this to her.
     """
 
     nvl clear
@@ -179,29 +197,10 @@ label kinkArrive:
     nvl clear
 
     sub "What? No! Smoking is bad for your health, and cigarettes are too expensive. {w}It’s just a fantasy, I don’t want you to do that to me."
+    "She held me closer than before afterwards."
+    "I was happy to see her beam."
+    "I could see how much it mattered to her to be accepted for who she was."
 
-    nvl_narrator """
-    She held me closer than before afterwards.
-
-    I was happy to see her beam.
-
-    I could see how much it mattered to her to be accepted for who she was.
-    """
-
-    # Tanit: Dissolve sprites and nvl, add end card for the demo "Thanks for playing the demo"
-    nvl hide dissolve
-    nvl clear
     hide dom
     hide sub
     with dissolve
-
-    show black with dissolve
-
-    nvl show dissolve
-
-    nvl_narrator """
-    Thanks for playing the demo.
-    """
-
-    nvl hide dissolve
-    nvl clear

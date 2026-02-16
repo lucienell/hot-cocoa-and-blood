@@ -43,6 +43,30 @@ label start:
         "past of leila":
             jump sc4
 
+        "figth":
+            jump sc5
+
+        "distance":
+            jump sc6
+
+        "menu 2":
+            jump choose2
+
+        "quit":
+            return
+
+    label choose2:
+    menu:
+
+        "no more BDSM":
+            jump sc7
+
+        "burnout":
+            jump sc8
+    
+        "staying home":
+            jump sc9
+
         "quit":
             return
 
@@ -61,5 +85,20 @@ label start:
 
     label sc4:
     call pastleila
+
+    label sc5:
+    call fight
+
+    label sc6:
+    call distance
+
+    label sc7:
+    call nomoreBDSM
+
+    label sc8:
+    call burnout
+
+    label sc9:
+    call stayinghome
 
     return

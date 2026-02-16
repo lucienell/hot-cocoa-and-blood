@@ -1,4 +1,7 @@
 label meeting:
+
+    # Music.
+    play music "track 07 - noise.ogg"
     
     scene black
     nvl show dissolve
@@ -9,16 +12,18 @@ label meeting:
 
     show bg bar with dissolve
     
-    nvl_narrator " We met at a queer bar.{w} She was working behind the counter, she wore a harness over her shirt: her countenance was sensual, sophisticated, and she moved with ease as she prepared cocktail after cocktail."
+    nvl_narrator " We met at a queer bar.{w} She was working behind the counter, she wore a harness over her shirt:{w} her countenance was sensual, sophisticated, and she moved with ease as she prepared cocktail after cocktail."
 
     show sub at right with dissolve
 
-    nvl_narrator "I had come there to be part of a discussion group for queer women: I meant to meet people and find friends, to talk about love, relationships and sex in a place where I’d be safe.{w} I had arrived too early, but the bar upstairs was already full of people who stood around, laughed, and talked together."
+    nvl_narrator "I had come there to be part of a discussion group for queer women:{w} I meant to meet people and find friends, to talk about love, relationships and sex in a place where I’d be safe.{w} I had arrived too early, but the bar upstairs was already full of people who stood around, laughed, and talked together."
 
     show dom at left with dissolve
+    nvl clear
 
-    nvl_narrator "I hadn’t been in Paris for long, at the time.{w} It was one of my first nights outside, and I wasn’t yet used to this type of setting : the pink lights, the music, the alcohol, the people almost overwhelmed me, so much so that I considered going home for the night;{w} I stood near the bar, uncertain of what I should do.
-    She noticed me and called out."
+    nvl_narrator "I hadn’t been in Paris for long, at the time."
+    nvl_narrator "It was one of my first nights outside, and I wasn’t yet used to this type of setting :{w} the pink lights, the music, the alcohol, the people almost overwhelmed me, so much so that I considered going home for the night;{w} I stood near the bar, uncertain of what I should do."
+    nvl_narrator "She noticed me and called out."
 
     nvl hide dissolve
     nvl clear
@@ -41,19 +46,20 @@ label meeting:
     Amélie listened well.{w} Occasionally, she had to prepare someone’s order, but she made sure to come back to me afterward and resume our conversation.
 
     Her smile, her attention felt earnest.{w} Soothing. She answered my questions about the group downstairs, she reassured me that everything would be fine, that I could trust the organiser and that she would be there for me if I needed any help.
-
-    When time came to go downstairs, I was at ease, if a little saddened to leave.
     """
 
     nvl hide dissolve
     nvl clear
 
+    "When time came to go downstairs, I was at ease, if a little saddened to leave."
     sub "Don’t hesitate to come back."
     sub "You seem really sweet and, if you’d like, I’d love to be your friend."
 
     # Tanit: quelle scène ici? rue? continuer bar?
 
     stop music fadeout 1.0
+
+    play music "track 07 - noise.ogg"
 
     nvl show dissolve
     hide bg bar
@@ -62,13 +68,19 @@ label meeting:
     with dissolve
 
     nvl_narrator """
-    We met again afterwards, first at her bar, later at an association, and then as friends.{w} I got the opportunity to better know her. To see how cheerful and outgoing she was, even when she wasn’t behind a counter.
+      We met again afterwards, first at her bar, later at an association, and then as friends.{w} I got the opportunity to better know her. To see how cheerful and outgoing she was, even when she wasn’t behind a counter.
 
-    She always had a pun at the tip of her tongue.
+      She always had a pun at the tip of her tongue.
 
-    She was so pretty, too.
+      She was so pretty, too.
+    """
+    
+    nvl clear
 
-    And her boldness! She always said what was on her mind, no matter who could hear her, no matter the subject: it was a sight to behold, that time she nerded out on the minutiae of vore and cannibalism in the middle of a fast food restaurant, without any concern for the increasingly agitated looks of that couple on the table over.{w} Oh, one of our friends was beyond mortified, and when they later messaged Amélie to tell her about it, I thought that she would never stop apologising.{w} It was as though she hadn’t really thought that the topic was anything to be ashamed of or keep behind closed doors.
+    nvl_narrator """
+    And her boldness!{w} She always said what was on her mind,{w} no matter who could hear her,{w} no matter the subject:{w} it was a sight to behold, that time she nerded out on the minutiae of vore and cannibalism in the middle of a fast food restaurant,{w} without any concern for the increasingly agitated looks of that couple on the table over.{w}
+
+    Oh, one of our friends was beyond mortified, and when they later messaged Amélie to tell her about it, I thought that she would never stop apologising.{w} It was as though she hadn’t really thought that the topic was anything to be ashamed of or keep behind closed doors.
     
     It didn’t take long for me to realise that I had fallen for her.
     """
