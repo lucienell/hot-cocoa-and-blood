@@ -23,6 +23,7 @@ label stayinghome:
     nvl clear
     nvl hide dissolve
 
+    play music "track 05 - discordantes.ogg" fadeout 2.0 fadein 2.0
     scene bg mainroom night
     with fade
 

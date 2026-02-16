@@ -1,7 +1,7 @@
 label nomoreBDSM:
 
     # Music.
-    play music "track 04 - amoureuses.ogg"
+    play music "track 05 - discordantes.ogg" if_changed
 
     # Show a background
     scene bg bedroom
@@ -52,7 +52,7 @@ label nomoreBDSM:
     scene bg mainroom
     with fade
 
-    play music "track 03 - stress.ogg"
+    play music "track 01 - amoureuses.ogg"
     show dom at left
 
 
