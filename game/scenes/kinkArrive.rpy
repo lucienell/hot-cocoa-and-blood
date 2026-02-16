@@ -4,8 +4,6 @@ label kinkArrive:
     play music "track 01 - amoureuses.ogg"
 
     scene bg bedroom night
-    show dom at left
-    show sub at right
     nvl show dissolve
     
     nvl_narrator """
@@ -37,7 +35,9 @@ label kinkArrive:
     nvl hide dissolve
     nvl clear
 
+    show sub surprised suppliante askance at right
     sub "Please, no. No. I, I like sex. I just. I don’t want you to hate me."
+    hide sub
 
     nvl show dissolve
     
@@ -53,9 +53,14 @@ label kinkArrive:
 
     nvl clear
 
+    
     nvl_narrator """
     I tentatively took some guesses to relieve her: had something happened to her?
-    
+    """
+
+    show sub surprised suppliante askance at right
+    with dissolve
+    nvl_narrator """
     A previous partner?{w} (No - well, not really)
 
     Was she afraid to ruin our relationship?{w} (A nod)
@@ -68,6 +73,7 @@ label kinkArrive:
 
 # Sprite : Amélie triste, choquée ? Veut pas que Leïla pense ça ?
     sub "No! No, that’s not it at all!"
+    hide sub dissolve
 
 
     nvl_narrator """
@@ -196,11 +202,12 @@ label kinkArrive:
     nvl hide dissolve
     nvl clear
 
+    show sub open crooked surprised at right
     sub "What? No! Smoking is bad for your health, and cigarettes are too expensive. {w}It’s just a fantasy, I don’t want you to do that to me."
+    show sub bigsmile loving seductive
     "She held me closer than before afterwards."
     "I was happy to see her beam."
     "I could see how much it mattered to her to be accepted for who she was."
 
-    hide dom
     hide sub
     with dissolve
