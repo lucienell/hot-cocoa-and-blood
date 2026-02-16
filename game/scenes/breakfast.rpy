@@ -37,7 +37,7 @@ label breakfast:
     show dom at left
     dom "Good morning, my love"
 
-    show sub at right
+    show sub seductive bigsmile cat at right
     sub "Ah! You’re awake! Good morning darling!"
 
     nvl show dissolve
@@ -54,15 +54,17 @@ label breakfast:
     nvl hide dissolve
 
     sub "I’m almost done! I’ll join you in the living room soon, go take your meds."
-    dom "Nope."
+    dom breathe talkingexclamation "Nope."
     "I moved in to embrace her, to kiss her head over and over. Mwah, mwah, mwah."
-    sub "Eheheh, what are you doing?~"
-    dom "I’ll stop kissing when you stop being this cute."
-    sub "Oh no! But I’m adorable!"
+    sub closed "Eheheh, what are you doing?~"
+    dom joy "I’ll stop kissing when you stop being this cute."
+    sub blush seducing "Oh no! But I’m adorable!"
     dom "Yes. You are."
 
     "Mwah."
     "She kept giggling."
+    show sub -blush loving bigsmile
+    show dom simplesmile
 
     nvl show dissolve
     
@@ -75,6 +77,7 @@ label breakfast:
       We stayed like this, muttering sweet nothings and thinking of the day to come for a while.{w} The chocolate had melted in the pan,{w}
       and Amélie kept stirring to ensure it would mix well with the milk. 
     """
+    show sub cat smile
 
     nvl hide dissolve
     nvl clear
@@ -86,14 +89,15 @@ label breakfast:
 
     sub "Oh, just so you know, we don’t have much chocolate left."
     dom "Drat. I’m adding that to our grocery list. Looks like we’re missing vanilla too."
-    sub "Yup! And we’ll have to go to the store, cause it’s not like there is anything vanilla about me!"
+    sub wink uwu "Yup! And we’ll have to go to the store, cause it’s not like there is anything vanilla about me!"
 
     #TODO wink anim
 
-    sub "Ha ha. Sorry."
+    sub cat seducing suppliante "Ha ha. Sorry."
     dom "I liked your joke, don’t apologise."
 
     nvl show dissolve
+    show sub seductive smile
 
     nvl_narrator "We poured the cocoa in our mugs and went to the living room.{w} Amélie took no time in drinking her own:{w}
     it was as though she didn’t care for the boiling heat of the beverage,{w} and, sometimes, she would have finished her mug before I took my first sip."
@@ -126,19 +130,21 @@ label breakfast:
     nvl hide dissolve
     nvl clear
     
-    dom "Oh, right, my meds. I almost forgot."
-    sub "Shoot ! My gel ! I knew I was forgetting something."
+    dom talkingexclamation "Oh, right, my meds. I almost forgot."
+    sub surprised neutral "Shoot ! My gel ! I knew I was forgetting something."
     "She stood in a hurry while I grabbed the medication from the top drawer of my desk. It didn’t take long before I could hear her wince and curse."
-    sub "Why must they put alcohol in this thing? Don’t they know this stuff hurts?"
+    show dom littlefrown worry unimpressed
+    sub cat yikes no "Why must they put alcohol in this thing? Don’t they know this stuff hurts?"
 
     "I kept looking at the screen without saying a word,{w} trying to ignore the knot that threatened to grow in my stomach."
     "Mechanically, I took my meds.{w} The warmth that spread through my mouth and throat made me notice that I had swallowed them by drinking my hot cocoa."
     sub "I swear… at least this will disinfect the wounds. Again. I guess I should also put on some cream but my arms are already covered in gel. Uuurgh…"
     #[Amélie comes back on screen. Cuts visible on the arm?]
-    sub "And I can’t even hug you when I’m like this! I swear, this is transphobic!"
-    dom "I really don’t think E gel is transphobic."
+    sub cheek fronces "And I can’t even hug you when I’m like this! I swear, this is transphobic!"
+    dom talkingexclamation open cocked "I really don’t think E gel is transphobic."
     sub "Not hugging you certainly is transphobic!"
-    dom "I guess it is, yeah."
+    dom simplesmile neutral "I guess it is, yeah."
+    show sub neutral smile
 
     nvl show dissolve
   
@@ -152,17 +158,19 @@ label breakfast:
     "Time went by.{w} Early morning eventually came to a pass.{w} We couldn’t postpone preparing for work or we would risk being late, and so we paused the video."
     "I took our mugs to the dishwasher.{w} The laundry machine had completed its cycle.{w} We would have to make haste if we were to hang them in time."
 
-    dom "Can you please get the rack?"
-    sub "Yes Miss!"
-    dom "Thank you, love."
+    dom talking "Can you please get the rack?"
+    sub cat bigsmile seductive "Yes Miss!"
+    dom simplesmile "Thank you, love."
 
     nvl show dissolve
+    show dom dissapointed unimpressed
 
     nvl_narrator "Inside was a bundle of white sheets.{w} I distinctly remember how they felt:{w} they were heavy with cold water, and so different from our usual laundry, so fresh and warm.{w} Still, I took them out. I diligently inspected them, looking for any speck of dried blood."
     nvl_narrator "To my relief, the cold wash had worked:{w} there was no ugly brown to be found amidst the white."
     nvl_narrator "There had been so much blood yesterday.{w} More than I had ever seen spilt in my life."
     nvl clear
     nvl_narrator "I had truly thought that my sheets would never recover from the scene;{w} that they would forever remind me of the way I had –{w} but they were clean, and I had to hang them to dry,{w} so I went to the living room where Amélie had deployed the clothes rack.{w} She sat at the desk, surfing or playing on the computer, this I did not see fully."
+    show dom simplesmile neutral
     nvl_narrator "Although I wished for her to be more proactive with the chores, I let her be.{w} When she so desired, Amélie could be the most diligent maid I could have asked for.{w} The rest of the time, she tarried, and she let herself be caught into the computer’s web."
     nvl clear
     nvl_narrator "Had I given her the order, she would have happily hung the sheets:{w} Amélie did every thing I asked of her.{w} This, perhaps, is precisely the reason why I did it all by myself without saying a word:{w} I feared fostering this tendency of hers."
@@ -175,8 +183,9 @@ label breakfast:
     "The task was easily done,{w} although I had to use some chairs as an improvised rack to avoid putting everything on top of each other."
     "It was time to leave, and I began dressing myself. By the time I was done, Amélie was still on the computer, oblivious to the time."
 
-    dom "We need to go, can you get dressed?"
-    sub "Oh, yes, sorry."
+    dom talkingexclamation "We need to go, can you get dressed?"
+    sub smile neutral "Oh, yes, sorry."
+    show dom simplesmile
 
     nvl show dissolve
 
@@ -189,7 +198,8 @@ label breakfast:
 
     "But then, she turned around to show me her back,{w} and everything about this fantasy collapsed…"
 
-    sub "Oh! Tell me how it looks!"
+    sub seductive bigsmile cat "Oh! Tell me how it looks!"
+    show dom worried worry scared
     "…when I saw my name carved into the skin on her back."
     "Every letter red with blood."
     "Cuts uneven, rough.{w} All angles, and no curves.{w} Like a child writing uppercase out of a bundle of sticks."
@@ -197,15 +207,16 @@ label breakfast:
     "A mess of fine lines and opened wounds,{w} where the skin had been cut open and gaped."
     "I could not look away.{w} I had done this to her."
 
-    dom "Y-yeah. I. Hold on, I’ll take a picture for you."
+    dom grittingteeth open "Y-yeah. I. Hold on, I’ll take a picture for you."
     "She clapped and posed – she behaved exactly like she was trying out a new dress at the store, like she wanted to see how it fitted her, if I thought it made her look pretty."
     "Like she wasn’t aware that I had carved scars on her back."
-    sub "Lemme see!"
-    sub "Oh! It’s gorgeous! Thank you thank you thank you! Hahaha! Yes!"
+    sub loving "Lemme see!"
+    sub stars "Oh! It’s gorgeous! Thank you thank you thank you! Hahaha! Yes!"
     "But there she was, right next to me, looking at the picture on my phone, hugging me in a fit of elation."
     "She truly thought these wounds made her look pretty.{w} She was euphoric, and oh so grateful."
     sub "I’m so glad!{w} Normally they fade away after a night.{w} I heal just way too easily.{w} But this time, you really did it!{w} I don’t think you ever cut that deep!"
     sub "Oh, I love you Leïla!"
+    show sub cat
 
     "She kissed me, again and again, with an energy she normally didn’t have.{w} And her voice -{w} it was so full of joy, of excitement, of -{w} of worship.{w} To her, I was a Goddess."
     "I didn’t want her to see how I felt.{w} I couldn’t ruin her joy, spoil it with my worries.{w} I was afraid she would feel guilt and be ashamed of herself."
@@ -221,11 +232,12 @@ label breakfast:
     sub "Thanks, babe."
     dom "Amélie?"
     sub "Yeah?"
-    dom "I love you too."
-    sub "I know! Eheheh."
+    dom simplesmile neutral "I love you too."
+    sub loving "I know! Eheheh."
     "She started turning around to embrace me, but I needed her to be still."
     "I wasn’t done treating the wounds,{w} and I didn’t want to let her wait any longer before I bandaged them.{w} Not like yesterday night."
     "So I kissed her on the nape of her neck, and I went back to my task."
+    show sub cat
     "By the time we were done and she got dressed, we were running late.{w} She didn’t want to leave me, and she whined when we had to go our separate ways."
     "I didn’t want her to leave me either.{w} I really, really wished I could stay in her arms."
     "Even though she had just cuddled with me with an affection, a glee I had never quite seen in her…{w} I still felt as though I needed a hug."
