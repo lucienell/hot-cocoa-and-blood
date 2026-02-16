@@ -7,8 +7,6 @@ label fight:
     scene bg bedroom
     with fade
 
-    show dom at left
-    show sub at right
     nvl show dissolve
 
     nvl_narrator """
@@ -21,6 +19,8 @@ label fight:
 
     nvl hide dissolve
     nvl clear
+    show sub cat bigsmile oopsie naked harnais_naked collier at right
+    show dom joy at left
 
     "She cleaned our place with a look of such concern, with such haste."
 
@@ -33,13 +33,13 @@ label fight:
     dom "Wait, darling."
     dom "Let me enjoy this moment. You will have your time when I’m done."
     # Sourcils suppliante, exclamation, yeux ouverts
-    sub "B-but, please, don’t you want-"
+    sub crooked cheek "B-but, please, don’t you want-"
     dom "Hush."
     dom "You will do as I say."
     dom "You don’t have a choice."
-    dom "After all - I own you, don’t I?~"
+    dom sadistic "After all - I own you, don’t I?~"
     # Overjoyed, :D
-    sub "Y-yes, Mistress~"
+    sub loving bigsmile suppliante blush "Y-yes, Mistress~"
     sub "You own me, I’m yours, only yours~"
     #Narration
     "Once she had simmered enough, she was so desperate that it was hard not to laugh:"
@@ -49,13 +49,15 @@ label fight:
     "She never quite appreciated the humour of it.{w} She was already obeying me: my one and only order was to stay still and wait for further instructions. But there, she’d say…"
     #Dialogue
     # Pout, sourcils froncés, yeux chats
-    sub "This doesn’t count, this is torture!"
+    sub cat cheek "This doesn’t count, this is torture!"
     dom "Don’t you love me when I torture you?"
     sub "Yes, but-"
     dom "Then it’s settled. Five more minutes will do you good."
     # Suppliante, exclamation
     sub "Please, Mistress!"
     dom "In silence, if you will."
+    show sub bigsmile
+    show dom joy
 
 #Narration
 
@@ -101,6 +103,7 @@ label fight:
     nvl hide dissolve
     nvl clear
 
+    show sub blindfold smile
     dom "You’re doing so well, doll. Breathe. Just ten more. Count for me."
     #Blindfold, :D, sourcils suppliante ou non
     sub "A-aah… Y-yes, Mistress… Please… Please…"
@@ -123,20 +126,25 @@ label fight:
       It was enough for me to know that I could be proud of myself.
     """
     
+    scene bg mainroom
     nvl hide dissolve
     nvl clear
+    show dom at left
+    show sub at right
 
 #The high fades. It’s not enough. Cracks in relationship. Difficulty to talk about it.
     "Unfortunately… it wasn’t enough."
     sub "Mistress?"
     dom "Yeah?"
+    show sub blush askance suppliante
     "She looked away, blushing."
     "It reminded me too much of that talk we had had about her kinks."
     "We weren’t in a scene. I was simply reading on the couch when she came to me, having exited the shower."
     sub "The bruises have already faded. Do you think you could hit me harder next time?"
     "This was a common complaint of hers."
-    dom "Babe… I don’t think I can? You couldn’t have taken another blow.{w} I swear, one more and you would have cried and we would have had to stop there."
-    sub "Well… you could just tie me up so I can’t move and force me to take it?"
+    dom littlefrown "Babe… I don’t think I can? You couldn’t have taken another blow.{w} I swear, one more and you would have cried and we would have had to stop there."
+    sub -blush crooked small cat "Well… you could just tie me up so I can’t move and force me to take it?"
+    show dom frown unimpressed dissapointed
     "I sighed."
     "It was so tiring."
     "During our scenes, Amélie was grateful. She was loving."
@@ -150,7 +158,7 @@ label fight:
     "I never could understand it."
     #Dialogue - angrier
     dom "You were begging for mercy,{w} you kept telling me it was too much,{w} that you would do anything if I stopped."
-    sub "Yeah, but I didn’t safeword!{w} It’s just… to help me get in the right mindspace.{w} It helps me deal with the pain, and it’s a nice scene."
+    sub fronces bigfrown "Yeah, but I didn’t safeword!{w} It’s just… to help me get in the right mindspace.{w} It helps me deal with the pain, and it’s a nice scene."
     dom "To make it seem like you hate it and want me to stop, yeah."
     sub "It’s just roleplay!{w} I don’t hate it!{w} Don’t you trust me?"
     "I just sighed. I really didn’t want to have that conversation."
@@ -159,12 +167,13 @@ label fight:
     "She never considered how hitting her when she begged me to stop made me feel."
     "It would have been fine if only she were grateful for all I did."
     # Askance, grimace, sourcils froncés
-    sub "You know what? Forget it."
+    sub askance grimace "You know what? Forget it."
     "I watched her leave the room."
     "It hurt when I felt how relieved that made me feel."
 
 
 #Introspective. Regret, anger, frustration, sadness.
+    scene bg introspection
     nvl show dissolve
     nvl_narrator """
       It wasn’t the first time Amélie and I had had a fight.

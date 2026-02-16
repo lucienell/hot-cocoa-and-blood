@@ -89,7 +89,7 @@ label pastleila:
 
 # Amélie apparaît sur fond noir introspectif. Yeux chats, :|, sourcils non!
 
-    show sub at right
+    show sub askance embarassed oopsie at right
     sub "I would probably safeword for that too anyway."
     "It was plain that she was trying to make me feel better and downplay her desires."
     "It made me feel like a part of me had broken to see her so dejected."
