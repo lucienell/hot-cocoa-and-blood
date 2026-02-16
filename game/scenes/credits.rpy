@@ -1,7 +1,7 @@
 label credits:
 
     # Music.
-    play music "track 01 - amoureuses.ogg"
+    play music "track 01 - amoureuses.ogg" fadein 1.0
 
     # Show a background
     scene bg introspection
