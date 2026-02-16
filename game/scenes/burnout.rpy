@@ -4,11 +4,8 @@ label burnout:
     play music "track 04 - introspection.ogg"
 
     # Show a background
-    scene bg bedroom
+    scene bg mainroom
     with fade
-
-    show dom at left
-    show sub at right
     nvl show dissolve
 
 #Depression - Using BDSM as a crutch.
@@ -71,12 +68,15 @@ label burnout:
 
     #Evening: Amélie comes home, stops working.
     # Living room. Leïla on a side of the screen, work clothes. Amélie appears, crying sprite, and goes through the screen before disappearing.
+    show sub exhaustedtears sourcil blouse bigfrown at right
     "One evening, however, I was surprised to see Amélie come home at 8pm. She hadn’t sent me any message. Her eyes were red, and her face was marked with tears."
     "Without a word, she went to our room and rolled in a ball on top of our bed."
     # Bedroom : Dark. Amélie’s sprite, facing away from where she looks, still crying.
     "She hadn’t turned on the light, and so she was lying in the darkness."
     # Leïla enters and comes near her sprite.
+    show dom worry littlefrown open at left
     "I approached her softly and held her hand in mine."
+    show sub embarassed
     "She held me tight, unable to speak, but clearly not willing to let me go."
     dom "Did anything happen, sweetie?"
     "She nodded."
@@ -157,6 +157,7 @@ label burnout:
 
 
       # Bar. Amélie’s sprite is transparent because Leïla hasn’t yet interacted with her. Smile sprite variation with lines on the side of the mouth.
+    show depressedsub beginning at right
 
     nvl_narrator """
       Amélie’s lips were too tight around her smile.{w} Anyone who knew her could see that it was forced.{w}
@@ -172,14 +173,17 @@ label burnout:
     nvl hide dissolve
     nvl clear
 
+    show dom littlefrown worry open outside at left
     "I sat on the barstool."
     dom "Hey sweetie."
     "Amélie turned sharply towards me.{w} For the moment that it took her to realise that I was me, she started going through a prepared speech…"
     sub "Hello and welcome to our Cabaret, how may -"
     # her smile fades. She looks tired.
+    show depressedsub -beginning leilaarrive
     "…which she dropped all of a sudden when she noticed it was not necessary."
     sub "…Hi babe. Sorry. I’m tired."
     dom "Is there something I can do?"
+    show depressedsub -leilaarrive grimace
     sub "I… I don’t know. Do you want a drink? It’s on me."
     dom "Give me a hot chocolate."
     sub "…Haha. I wish I could, but that’s not on the menu."
@@ -197,10 +201,13 @@ label burnout:
 
 
 # Outside in Paris
+    scene bg rue
+    with fade
         
     "The whole time we walked outside, Amélie was clinging to my arm."
     "She was so close that, in spite of all the traffic noise, in spite of how low she murmured, I still heard her:"
 
+    show depressedsub tears at right
     sub "…I think I should quit this job."
 
     nvl show dissolve
