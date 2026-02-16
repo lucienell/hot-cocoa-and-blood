@@ -4,11 +4,6 @@ label nomoreBDSM:
     play music "track 05 - discordantes.ogg" if_changed
 
     # Show a background
-    scene bg bedroom
-    with fade
-
-    show dom at left
-    show sub at right
     nvl show dissolve
 
     nvl_narrator """
@@ -53,7 +48,7 @@ label nomoreBDSM:
     with fade
 
     play music "track 01 - amoureuses.ogg"
-    show dom at left
+    show dom breathe at left
 
 
     #The fight
@@ -63,19 +58,19 @@ label nomoreBDSM:
     "She was happy when she woke up, and since it had been a while since we had both been in a good mood, we cuddled on the couch and talked."
     # Sprite during the last paragraph: really close to one another. Looking in the same direction.
     # Dialogue start: throughout, Amélie and Leïla’s names are dull. They look tired.
-    show sub at right
+    show sub exhausted sourcil at right
     sub "Hey, sweetie."
-    dom "Hey love."
+    dom open sourcil "Hey love."
     dom "How are you today?"
-    sub "Pretty well. Everything went exactly as planned yesterday night, and that’s a relief."
+    sub open "Pretty well. Everything went exactly as planned yesterday night, and that’s a relief."
     dom "What was it again?"
     # Bouche exclamation, yeux fermés, sourcils normaux
-    sub "A shibari workshop downstairs. I’m so glad people came, I spent way too much time advertising it."
+    sub uwu cat "A shibari workshop downstairs. I’m so glad people came, I spent way too much time advertising it."
 
     # Amélie closes her eyes in the sprite.
-    dom "Huh. That’s new."
-    sub "Yeaah…"
-    dom "…"
+    dom cocked "Huh. That’s new."
+    sub closed "Yeaah…"
+    dom littlefrown "…"
     "She was relaxing further into my arms."
     dom "…would you like to… Maybe go to a workshop like that one day?"
     dom "It’s been a while since I tied you up."
@@ -87,26 +82,27 @@ label nomoreBDSM:
     sub "You don’t have to do that anymore if you don’t want to."
     sub "I love you regardless."
     # Sprite : Leïla is a bit angry
-    dom "What the fuck does {i}that{/i} mean?"
+    show sub smile
+    dom fronces angry "What the fuck does {i}that{/i} mean?"
     # Cocks eyebrow
-    sub "…I mean…{w} you know?"
-    dom "What?{w} No?"
+    sub askance crooked surprised "…I mean…{w} you know?"
+    dom frown "What?{w} No?"
     "Her weight against me was growing uncomfortable."
     # Amélie’s sprite is tired : yeux chats, sourcils non, :| j’imagine
-    sub "…let’s not pretend you like indulging me.{w} I know you’d rather have a normal girlfriend."
+    sub frown no cat"…let’s not pretend you like indulging me.{w} I know you’d rather have a normal girlfriend."
     sub "I know you’re tired of us fighting all the time.{w} Could we please just have a nice day together?"
-    dom "What are you talking about?"
-    sub "Babe…"
+    dom anger "What are you talking about?"
+    sub cat "Babe…"
     # Sprites separate. 
     dom "What is this about?"
     # Askance. exclamation
-    sub "I don’t want to fight.{w} I just think it’d be…{w} good to stop with everything.{w} It’s not worth it."
+    sub askance surprised "I don’t want to fight.{w} I just think it’d be…{w} good to stop with everything.{w} It’s not worth it."
     # Sprite of Leïla gets angrier
-    dom "Don’t just decide that on your own!"
+    dom talkingexclamation "Don’t just decide that on your own!"
     dom "I’m your Mistress!{w} Why are you-{w} I’m not indulging you!"
     sub "…yeah, you’re not."
     dom "What does this mean?"
-    sub "I know you don’t want to hurt me.{w} I know you hate my kinks."
+    sub cat "I know you don’t want to hurt me.{w} I know you hate my kinks."
     dom "This is-{w} You’re wrong!"
     sub "Am I?{w} Really?"
     sub "It’s not a problem.{w} I love you, Leïla.{w} And I think I’ve let my kink destroy too much of our relationship,{w} and I just want us to stop before it’s too late."
@@ -131,9 +127,11 @@ label nomoreBDSM:
     sub "You’ve been avoiding the topic lately.{w} I…{w} try to talk about what we did,{w} I want to talk about what else we could do…{w} and I see you tense up."
     sub "Like it’s just a chore for you."
     sub "Maintenance for me."
-    dom "…I like having sex with you, Amélie."
-    dom "I like it when I hold you in my arms.{w} I like it when you’re in my lap and I spank you."
-    dom "When you try to escape,{w} when you moan and cry,{w} but I hold you firmly in place."
+    dom littlefrown open dissapointed "…I like having sex with you, Amélie."
+    show sub cat sourcil
+    dom simplesmile "I like it when I hold you in my arms.{w} I like it when you’re in my lap and I spank you."
+    dom sourcil "When you try to escape,{w} when you moan and cry,{w} but I hold you firmly in place."
+    show sub embarassed
     dom "I love telling you that you belong to me.{w} I love praising you,{w} and I love your expressions when I insult you;{w} when you nod so frantically and beg for more."
     sub "…Really?"
     dom "Yes, Amélie."

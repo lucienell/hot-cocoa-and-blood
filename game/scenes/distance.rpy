@@ -4,11 +4,9 @@ label distance:
     play music "track 05 - discordantes.ogg" if_changed
 
     # Show a background
-    scene bg bedroom
+    scene bg mainroom
     with fade
 
-    show dom at left
-    show sub at right
     nvl show dissolve
 
 #Happy memories
@@ -70,12 +68,12 @@ label distance:
       I stopped going to the bar,{w} and explained to Amélie that I would do my best to eventually get assigned to a night shift.
     """
 
+    play music "track 05 - discordantes.ogg" fadeout 1.0 fadein 1.0
+    scene bg bedroom
+
     nvl clear
 
     nvl_narrator "I wonder how much her actions have been influenced by loneliness.{w} When she felt so dissatisfied with the results of a scene,{w} when she asked for marks that would last for more than a day…{w} had she dreamt of me while she was at work?{w} Of what we would do together when we finally had time during our days off?{w} Was it about having a reminder?"
-
-    play music "track 05 - discordantes.ogg" fadeout 1.0 fadein 1.0
-    scene bg bedroom
 
     nvl_narrator """
       I do not know for sure.{w} I was too lost in my own solitude.
