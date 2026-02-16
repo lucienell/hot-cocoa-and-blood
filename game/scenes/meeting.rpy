@@ -14,11 +14,11 @@ label meeting:
     
     nvl_narrator " We met at a queer bar.{w} She was working behind the counter, she wore a harness over her shirt:{w} her countenance was sensual, sophisticated, and she moved with ease as she prepared cocktail after cocktail."
 
-    show sub at right with dissolve
+    show sub blouse harnais_blouse collier at right with dissolve
 
     nvl_narrator "I had come there to be part of a discussion group for queer women:{w} I meant to meet people and find friends, to talk about love, relationships and sex in a place where I’d be safe.{w} I had arrived too early, but the bar upstairs was already full of people who stood around, laughed, and talked together."
 
-    show dom at left with dissolve
+    show dom outside panic worry scared at left with dissolve
     nvl clear
 
     nvl_narrator "I hadn’t been in Paris for long, at the time."
@@ -28,13 +28,15 @@ label meeting:
     nvl hide dissolve
     nvl clear
 
-    sub "Hey! Are you okay? Can I get you anything?"
-    dom "Oh! Sorry, I got lost.{w} And no, thank you, I don’t drink."
-    sub "As you wish! But do know we have softs too, and I can whip you up something."
-    dom "Thank you."
+    sub cat seductive "Hey! Are you okay? Can I get you anything?"
+    dom neutral "Oh! Sorry, I got lost.{w} And no, thank you, I don’t drink."
+    sub seducing "As you wish! But do know we have softs too, and I can whip you up something."
+    dom simplesmile "Thank you."
     sub "I don’t think I ever saw you here before, and I’m pretty sure I would remember someone even half as cute- "
+    show sub grimace
+    show dom joy
     "She held her tongue, feeling as though she had crossed a line and caught herself too late.{w} As for myself, I felt flattered, if a bit embarrassed."
-    sub "Sorry, sorry, I could not resist. But, seriously, tell me if I’m being too much.{w} We’re a nice place, and I want you to have a good time."
+    sub bigsmile cat "Sorry, sorry, I could not resist. But, seriously, tell me if I’m being too much.{w} We’re a nice place, and I want you to have a good time."
     dom "It’s fine. I’m just here for the meeting.{w} Can I have something sweet?"
     sub "Sure!"
 
@@ -61,11 +63,8 @@ label meeting:
 
     play music "track 07 - noise.ogg"
 
+    scene bg rue
     nvl show dissolve
-    hide bg bar
-    hide dom
-    hide sub
-    with dissolve
 
     nvl_narrator """
       We met again afterwards, first at her bar, later at an association, and then as friends.{w} I got the opportunity to better know her. To see how cheerful and outgoing she was, even when she wasn’t behind a counter.
@@ -74,6 +73,7 @@ label meeting:
 
       She was so pretty, too.
     """
+    scene bg restaurant
     
     nvl clear
 
