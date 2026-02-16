@@ -20,7 +20,7 @@ label credits:
      
       UI drawn by Tanit
       
-       Backgrounds made from edited photos, by Tanit and Chloe
+       Backgrounds made from edited photos, by Tanit and Chloé
     """
     $ renpy.pause(4.0)
     nvl clear
@@ -28,11 +28,11 @@ label credits:
     nvl_narrator """
      Special thanks to:
     
-     Nore for helping me out during my SRS, at the end of the jam. I love you so much.
-    
      Nadianova and Hamanooverdrive for additional help with code.
      
       The Fisher's Game Jam's Discord for their kindness.
+    
+     Nore for helping me out during my SRS, at the end of the jam. I love you so much.
     """
     nvl clear
 
