@@ -1,5 +1,10 @@
 ﻿# The script of the game goes in this file.
 
+# Code by Nadia Nova, thanks.
+default persistent.set_volumes = False
+define config.nvl_page_ctc = Animation("flippage_ctc",align=(0.98, 0.961))
+define config.nvl_page_ctc_position = "fixed"
+
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 ## Definitions moved to definitions.rpy
