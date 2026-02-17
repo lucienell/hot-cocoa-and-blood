@@ -2,8 +2,8 @@
 
 # Code by Nadia Nova, thanks.
 default persistent.set_volumes = False
-define config.nvl_page_ctc = Animation("flippage_ctc",align=(0.98, 0.961))
-define config.nvl_page_ctc_position = "fixed"
+define config.nvl_page_ctc = Animation("flippage_ctc")
+
 
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
@@ -21,6 +21,9 @@ transform left:
 define config.nvl_list_length = 10
 define gui.nvl_height = None
 define gui.nvl_borders = Borders(0, 100, 0, 0)
+
+
+
 
 # List all chapter in order
 
