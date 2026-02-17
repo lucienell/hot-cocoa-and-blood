@@ -27,18 +27,24 @@ label stayinghome:
     scene bg mainroom night
     with fade
 
+    show sub depressed grimace sourcil at right
     "On the first day, I found her still lying in bed when I came back from work. {w} She was playing a video game."
     # Amélie’s sprite : eyes sunk. Pajama.
     # Leïla’s sprite : neutral expression. Outside attire.
-    sub "You’re back already? What time is it?"
+    show dom littlefrown worry open outside at left
+    sub surprised "You’re back already?{w} What time is it?"
     dom "Hi love. It’s half past six.{w} Sorry, I didn’t have time to make you any cocoa this morning."
     sub "…half past six? Really? How?"
-    dom "…is everything okay?"
-    sub "…"
+    dom worried "…is everything okay?"
+    sub frown "…"
     sub "I’ve been playing for hours."
     sub "…I probably should go and eat or drink something."
     dom "I’ll bring a glass of water, and we have some lasagnas left in the fridge."
     sub "…Thanks babe."
+
+    hide sub
+    hide dom
+    with dissolve
 
 
     nvl show dissolve
@@ -88,15 +94,18 @@ label stayinghome:
     nvl hide dissolve
     nvl clear
 
+    show dom littlefrown worry open outside at left
+    show sub depressed frown sourcil at right
     # Bedroom, the two of them really close, Amélie in pajamas, Leïla in work outfit. She smiles.
     dom "Everything is okay sweetie. I love you. You’re safe here."
+    show sub askance
     dom "I can tell that there’s something you want to tell me."
     dom "You always look away from me and bite your lip when you’re like that."
     dom "Whatever it is, I’ll be there for you. I love you, and I want us to spend the rest of our life together."
     dom "I won’t judge you."
     sub "…"
     "When I saw that Amélie tried to bring herself to talk, I brushed her hair in silence, waiting for her to be ready."
-    sub "…I feel like a waste."
+    sub cat suppliante "…I feel like a waste."
     sub "I should be at work. I should be able to cook for myself, to clean at home."
     sub "…you’re doing everything here, and I spend my time playing Vampire Survivors or some other game."
     sub "… you should hate me for this."
@@ -106,13 +115,15 @@ label stayinghome:
     sub "I don’t want to stay in bed. I don’t want to waste away."
     sub "But I try and leave and do something and I’m overwhelmed by fear and that sense that I’m going to break and I want to throw up and cry and -"
     dom "Please, take a breath."
+    show dom breathein
     dom "1, 2, 3…{w} Exhale.{w} 1, 2, 3…{w} Inhale."
+    show dom breatheout
     dom "I’m with you."
     sub "…I want to be useful. Not to give you more work."
     sub "…but…"
     sub "…I can’t, and this makes me feel worthless."
-    dom "I’ve never thought-"
-    sub "Leïla, please - I’m not saying that you think I’m worthless."
+    dom worried "I’ve never thought-"
+    sub "Leïla, please -{w} I’m not saying that you think I’m worthless."
     sub "I think that I am."
     sub "There’s something broken in me."
     sub "…do you think I want to stay in bed? That I haven’t showered in days because that’s what I want?"
@@ -120,14 +131,18 @@ label stayinghome:
     dom "…Amélie, stop."
     sub "…"
     # Sprite of Leïla : eyes closed.
-    dom "…please, Amélie, go take a shower for me."
+    dom breathe breatheout "…please, Amélie, go take a shower for me."
     sub "…Uh?"
     # Sprite Leïla : eyes opened
-    dom "It would make me very proud of you if you got out of bed and took a shower, or a bath if you prefer, and I know that it would make you feel better as well."
+    dom open talkingexclamation sourcil "It would make me very proud of you if you got out of bed and took a shower, or a bath if you prefer, and I know that it would make you feel better as well."
     dom "It’s okay if you can’t - but… can you at least try?"
     dom "Please?"
-    sub "…Yes, Miss."
-    sub "Thank you… Leïla."
+    sub askance embarassed "…Yes, Miss."
+    sub cat smile"Thank you… Leïla."
+  
+    hide sub
+    hide dom
+    with dissolve
 
     nvl show dissolve
     
@@ -191,12 +206,15 @@ label stayinghome:
 
     # Still novel mode: appearance of Amélie’s and Leïla’s sprites.
     # Amélie : nerding, stars in her eyes. Leïla: concerned.
+    show dom littlefrown worry open at left
+    show sub stars bigsmile at right 
     sub "Dogs love their master no matter what, don’t they?{w} You could punish me whenever I make too much noise, use a muzzle, maybe an electric collar."
     sub "And you could maybe insult me, because dogs can’t understand,{w} and laugh at how stupid I must be to crawl back to your side, hungry for love."
     dom "But you’re so adorable when you’re on all four - how could I possibly want to hurt you?"
-    dom "Seeing you like that just makes me want to kiss you and love you and give you so much praise."
+    show sub seductive open frown
+    dom simplesmile sourcil "Seeing you like that just makes me want to kiss you and love you and give you so much praise."
     # Amélie: wistful
-    sub "...It’s just a scene, Leï. Besides… what’s fun is that the dog’s mistress loves it too. She just expresses it poorly. She’s happy to have it by her side."
+    sub "...It’s just a scene, Leï.{w} Besides… what’s fun is that the dog’s mistress loves it too. She just expresses it poorly. She’s happy to have it by her side."
 
     "Amélie’s urges never disappeared, but she now felt satisfied enough (or perhaps secure enough in her submission) to allow me to cherish her from time to time,"
     "or to spank her without having to pretend that I had no regard for her desires and well-being."
