@@ -3,9 +3,6 @@ label knife:
     # Show a background
     scene bg bedroom
     with fade
-
-    show dom at left
-    show sub at right
     nvl show dissolve
 
     # Music.
@@ -59,41 +56,46 @@ label knife:
     nvl clear
     nvl hide dissolve
 
+    show sub seducing cat seductive at right
+    show dom at left
+
     "We were together in bed, holding each other in an embrace."
     "My arm had grown numb, and her head was resting on top of my shoulder;{w} I basked in the moment, eyes closed, ready to go asleep."
     "At some point, I must have blinked;{w} I found myself looking at Amélie’s face, lost in her beauty."
     "She was so close that her eyes seemed as though they had merged together."
     "Likewise, she was looking at me. From the corner of my eye, I could see the smile on her face."
     dom "Hi love."
-    sub "Hi you."
+    sub loving "Hi you."
     #[pause]
-    dom "What are you thinking about?"
+    dom cocked open "What are you thinking about?"
     sub "How pretty you are.{w} How lucky I am to have you.{w} How much I love you."
+    show dom blush sourcil
     "My heart fluttered. I could not help but blush."
 
-    dom "I love you so much, Amélie"
+    dom -blush "I love you so much, Amélie"
     sub "…Mistress?"
     dom "Yes?"
     sub "…I was thinking…"
-    sub "…Could we please do some knife play later tonight?"
+    sub bigsmile "…Could we please do some knife play later tonight?"
     "She was hanging onto my word, just like a child pleading to buy a video game."
     dom "…Yeah, let’s do that. It’s going to be fun."
     dom "I could tie you up, and trace the edge all over your body. You would have to try not to move."
-    sub "And, uh…"
+    sub askance smile "And, uh…"
     dom "Yes?"
-    sub "Could it… please be sharp, this time?"
-    sub "I know you’ve told me no before, but…{w} I’d really like for you to carve your name into my back."
-    sub "I want to belong to you.{w} I want something to remind me that I’m your property and that you’re my Mistress;"
+    sub cat bigsmile "Could it… please be sharp, this time?"
+    sub askance "I know you’ve told me no before, but…{w} I’d really like for you to carve your name into my back."
+    sub cat uwu "I want to belong to you.{w} I want something to remind me that I’m your property and that you’re my Mistress;"
     sub "something that will not fade with time, something that I can carry with me forever, just like a collar or, well, a wedding ring."
+    show dom littlefrown worry
     "I paused."
     dom "…Sweetie, you know it’s dangerous."
     dom "I can carve my name…{w} but I would rather have the edge be dull.{w} I… don’t want to hurt you,{w} or do anything that’s permanent."
-    sub "…I know, but.."
+    sub askance embarassed "…I know, but.."
     dom "Would it work if I did it more often, anytime you want?{w} That way, my name would stay with you."
 
-    sub "…It’s not the same. It will go away."
+    sub suppliante cat "…It’s not the same. It will go away."
     sub "I want it to stay forever."
-    dom "…What if you regret it later?"
+    dom worried "…What if you regret it later?"
     sub "…Please, Mistress.{w} You know I can make my own decisions.{w} Don’t you trust me?"
     dom "I do, but… Amélie, it’s permanent!"
     sub "I want {i}us{/i} to be permanent!"
@@ -101,12 +103,16 @@ label knife:
 
     "She was holding me so tight."
     "To my surprise, I realised that, for all my fears and all my doubts,{w} I could not imagine telling her no."
-    dom "…"
+    dom simplesmile "…"
     dom "Okay."
-    dom "I’ll do as you wish."
-    sub "Oh thank you thank you thank you!{w} Thank you so much Mistress!{w} I love you!"
+    dom sourcil "I’ll do as you wish."
+    sub loving sourcil bigsmile "Oh thank you thank you thank you!{w} Thank you so much Mistress!{w} I love you!"
     #Back to present - Knife scene
+
     nvl show dissolve
+    hide sub
+    hide dom
+    with dissolve
 
     nvl_narrator """
       We decided to have our scene on morrow's evening.{w} I needed time to prepare, and we had to attend to previous engagements.
@@ -133,6 +139,8 @@ label knife:
     """
     nvl clear
 
+    scene bg bedroom night
+    with fade
     stop music fadeout 0.5
     play music "track 06 - angoisse.ogg" fadeout 13.5 fadein 13.5 volume 2.0
 
@@ -162,6 +170,8 @@ label knife:
 
 
     # Moment purposefully written as to be long, put as much as possible on one screen, if possible, find a way to make it scroll in one full screen if it’s not too unreadable.
+    scene bg introspection
+    with fade
 
 
     nvl_narrator """
@@ -211,11 +221,18 @@ label knife:
     nvl clear
     nvl hide dissolve
 
+    show sub cat naked collier grimace suppliante at right
+    show dom sadistic sadism at left
+  
     sub "Please, Mistress!{w} Can you tell me what I’ve done?{w}"
 
     "Does she want me to slap her?{w}"
 
     dom "You will see, toy.{w} Now, hush, and let me have my fun.{w} Let me have my way with what’s mine. "
+
+    hide dom
+    hide sub
+    with dissolve
 
     nvl show dissolve
 
@@ -267,6 +284,8 @@ label knife:
     "I firmly grabbed her flesh to twist, to pull and to bite.{w} I forbade her from moving, and I laughed whenever she failed at her task."
 
 
+    show sub cat naked collier grimace suppliante ring_gag at right
+    show dom sadistic sadism dissapointed unimpressed at left
     # Sprite: sadistic, laughing
     dom "What a poor toy you make, unable to follow a simple command."
     # Sprite: sadistic, stern
@@ -276,8 +295,13 @@ label knife:
     "Amélie could not talk through the gag, but only whine."
 
     # Sprite: sadistic/disappointed
+    show sub cat naked collier grimace suppliante ring_gag at right
+    show dom sadistic sadism dissapointed sourcil at left
     dom "You can’t even answer your Mistress when she asks you a simple question."
     dom "How lower can you possibly sink than that?"
+    hide dom
+    hide sub
+    with dissolve
 
     nvl show dissolve
 
@@ -302,6 +326,8 @@ label knife:
     "I sat on top of Amélie once again."
 
     # Sprite: Sadistic/Anxious. Can you make an effect that looks like she’s correcting herself, a sudden shake with my little pain slut or something?
+    show sub cat naked collier grimace suppliante ring_gag at right
+    show dom sadistic sadism anxiety sourcil knife at left
     dom "Well. I think you have waited long enough, my little angel - my little pain slut."
 
 
@@ -315,6 +341,8 @@ label knife:
     # Can you make that sentence slow?
     dom "After this, you won’t ever be able to escape."
 
+    scene bg introspection_blood
+    with fade
     stop music fadeout 1.0
     nvl show dissolve
     nvl_narrator """
@@ -371,8 +399,14 @@ label knife:
     nvl hide dissolve
 
     # dialogue ; Leïla’s sprite is angry/sadistic/stressed when she speaks. Effect to see that she speaks harshly.
+    show sub cat naked collier grimace suppliante ring_gag at right
+    show dom sadistic sadism anxiety sourcil knife at left
     "Maybe there’s too much slack.{w} She’ll arch her back.{w} Try to run away.{w} She’ll mess everything."
     dom "Stay.{w} Still."
+
+    hide dom
+    hide sub
+    with dissolve
 
     nvl show dissolve
     nvl_narrator """
@@ -396,10 +430,17 @@ label knife:
 
 
    # Leïla [Sadistic, stressed]:
+    show sub cat naked collier grimace suppliante ring_gag at right
+    show dom sadisticbreaking sadism anxiety sourcil knife at left
     dom "Do you like how you taste?"
     "She nodded. Yes, yes, yes, she loved it. She wanted more."
     "What followed feels even more vague."
     "Trying to remember is like erring into a deep mist,{w} so thick that it fills my lungs entirely."
+    
+    hide dom
+    hide sub
+    with dissolve
+    
 
     nvl show dissolve
     nvl_narrator """
@@ -444,6 +485,8 @@ label knife:
     nvl hide dissolve
     nvl clear
 
+    show sub naked collier grimace suppliante ring_gag closed at right
+    show dom sadisticbreaking sadism anxiety sourcil knife at left
     "I kept playing the role."
     # Leïla looks heavily dissociative. Head towards the shoulder. Feels sick. Shadow over her face. Hair is a mess.
 
@@ -451,7 +494,7 @@ label knife:
     dom "My sweet, submissive doll.{w} All for me to own, for the rest of your life."
     dom "You can stop crying now."
     dom "You know I don’t care if it hurts, right?"
-    dom "I’m only doing this for my own pleasure."
+    dom angry "I’m only doing this for my own pleasure."
     dom "Because it’s fun to see you whimper,{w} to see you flail."
     dom "Hahaha…"
 
@@ -464,7 +507,7 @@ label knife:
     "You’re almost done."
 
 
-    dom "M-maybe I could -{w} I should carve you a bit more."
+    dom scared "M-maybe I could -{w} I should carve you a bit more."
     dom "You have so much skin, after all"
     "So much skin?{w} Really?{w} Everyone has sk-"
     dom "I could write all over you."
@@ -478,6 +521,7 @@ label knife:
     dom "Hahaha."
 
 
+    show sub no cat
     "I grabbed her arm. I felt her muscles tense."
     # Put an effect of weight on the word slut.
     dom "S-some more cuts.{w} You’ve been so brave.{w} You can take more."
@@ -498,6 +542,7 @@ label knife:
     "It was hard to see them in this position, but…{w} her eyes were full of fear.{w} She was so afraid.{w} Trembling so hard."
 
 
+    show dom sadistic
     "She’s looking at you.{w} Smile.{w} She’ll… she won’t like it if she sees how sick you are."
     # Elle porte un blindfold en vrai, non ?
     # Leila’s sprite goes from dissociated to breathing to neutral to sadistic
@@ -554,7 +599,11 @@ label knife:
     "And I released her hair…"
     "She relaxed her body and slumped into the bed."
 
+    scene bg bedroom night
+    with fade
     # Amélie’s sprite : face obscured.
+    show dom littlefrown open worry at left
+    show sub exhaustedtears naked grimace at right
     stop music fadeout 54.0
     nvl show dissolve
     nvl_narrator """
@@ -570,6 +619,8 @@ label knife:
 
       Trying to steady my breath.
     """
+    show dom simplesmile
+    show sub halfclosed happy
 
     nvl clear
     nvl_narrator """
@@ -594,9 +645,10 @@ label knife:
     play music "track 06 - angoisse.ogg" fadeout 5.0 fadein 5.0 volume 1.0
 
     # Sprite : smiling, crying, hearts.
-    sub "…Oh, God, that was amazing."
-    sub "You did so well.{w} I really thought I was going to die -{w} and, and when you were cutting me -{w} hahaha -{w} I could, I could feel it!{w} Each slice."
+    sub bigsmile stars sourcil "…Oh, God, that was amazing."
+    sub loving "You did so well.{w} I really thought I was going to die -{w} and, and when you were cutting me -{w} hahaha -{w} I could, I could feel it!{w} Each slice."
     sub "I tried to feel the shape of the letters but, wow,{w} that’s so much harder than you think it would be."
+    show dom littlefrown
     sub "I guess we really don’t have many nerves there, uh."
     sub "I could probably tell if you were cutting my palm{w} but that’s a terrible idea."
     sub "Probably going to try with, like, a pen."
@@ -608,14 +660,14 @@ label knife:
     "Breathe."
     dom "We’ll look in the mirror when we go disinfect the wound, but… it’s legible."
     dom "I didn’t… hurt you too much?"
-    sub "Are you kidding? It was amazing!{w} Wow, it felt so {i}good!{/i}{w} There’s that burn that takes a second to come.{w} It’s so weird how it does that!"
-    sub "Well, it did feel…{w} I didn’t like how it felt when you cut several times in the same space."
+    sub stars "Are you kidding? It was amazing!{w} Wow, it felt so {i}good!{/i}{w} There’s that burn that takes a second to come.{w} It’s so weird how it does that!"
+    sub askance "Well, it did feel…{w} I didn’t like how it felt when you cut several times in the same space."
     sub "It’s just, weird, and itchy,{w} and not as good."
     sub "So maybe you could try doing it right on the first cut next time?"
-    sub "Also, I really liked the teeth when you held it against my throat.{w} Maybe we could angle them or use them more?{w} Not when you’re cutting but when you’re teasing cause…"
+    sub cat "Also, I really liked the teeth when you held it against my throat.{w} Maybe we could angle them or use them more?{w} Not when you’re cutting but when you’re teasing cause…"
     sub "They have all that texture and the back…{w} the back is so {i}boring{/i} next to them!"
     dom "The spine."
-    sub "Yeah, I guess that’s how you call it.{w} Huh.{w} Thanks, babe."
+    sub loving "Yeah, I guess that’s how you call it.{w} Huh.{w} Thanks, babe."
     sub "Oh, how much did I bleed?"
 
 
@@ -637,6 +689,7 @@ label knife:
     sub "Oh, god."
     sub "Thank you so much, babe.{w} Miss."
     sub "That was,{w} without a doubt,{w} the best scene of my life."
+    
 
 
     "She looked right at me."
@@ -657,6 +710,8 @@ label knife:
     dom "Come on now, let’s disinfect your wounds and dress them up."
     sub "But I want to see— them !"
 
+    scene bg shower
+    with fade
     nvl show dissolve
     nvl_narrator """
       It was hard for me to sleep that night.
@@ -669,3 +724,4 @@ label knife:
 
       I cried.
     """
+    nvl clear
