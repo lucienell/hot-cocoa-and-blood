@@ -33,56 +33,56 @@ define gui.nvl_borders = Borders(0, 100, 0, 0)
 label start:
 
     # scenes menu
-    menu:
-        "this is a temporary menu to test the game, you can jump to any chapter and play as intended"
-
-        "introduction":
-            jump sc0
-            
-        "breakfast":
-            jump sc1
-
-        "meeting":
-            jump sc2
-
-        "kink arrive":
-            jump sc3
-
-        "past of leila":
-            jump sc4
-
-        "figth":
-            jump sc5
-
-        "distance":
-            jump sc6
-
-        "menu 2":
-            jump choose2
-
-        "quit":
-            return
-
-    label choose2:
-    menu:
-
-        "no more BDSM":
-            jump sc7
-
-        "burnout":
-            jump sc8
-    
-        "staying home":
-            jump sc9
-
-        "knife":
-            jump sc10
-
-        "credits":
-            jump sc11
-
-        "quit":
-            return
+    #menu:
+        #"this is a temporary menu to test the game, you can jump to any chapter and play as intended"
+#
+        #"introduction":
+            #jump sc0
+            #
+        #"breakfast":
+            #jump sc1
+#
+        #"meeting":
+            #jump sc2
+#
+        #"kink arrive":
+            #jump sc3
+#
+        #"past of leila":
+            #jump sc4
+#
+        #"figth":
+            #jump sc5
+#
+        #"distance":
+            #jump sc6
+#
+        #"menu 2":
+            #jump choose2
+#
+        #"quit":
+            #return
+#
+    #label choose2:
+    #menu:
+#
+        #"no more BDSM":
+            #jump sc7
+#
+        #"burnout":
+            #jump sc8
+    #
+        #"staying home":
+            #jump sc9
+#
+        #"knife":
+            #jump sc10
+#
+        #"credits":
+            #jump sc11
+#
+        #"quit":
+            #return
 
 
     label sc0:

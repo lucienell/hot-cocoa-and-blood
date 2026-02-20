@@ -46,6 +46,7 @@ label distance:
     play music "track 07 - noise.ogg" fadeout 1.0 fadein 1.0
     scene bg funeral
     with fade
+    show dom work left
 
     nvl_narrator """
       At this point in time, back when the first cracks in our relationship had shown,{w} I had, at last, found a salaried position with consistent hours and consistent pay, at a big corporation.{w} But that position came with a more strict schedule that mainly took place between 10am and 5pm.

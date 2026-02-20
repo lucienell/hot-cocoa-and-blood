@@ -404,7 +404,7 @@ style main_menu_title:
     properties gui.text_properties("title")
 
 style main_menu_version:
-    properties gui.text_properties("version")
+    properties gui.text_properties("1.0")
 
 
 ## Game Menu screen ############################################################

@@ -5,7 +5,7 @@ label introduction:
 
     define options.preference.afm_time = 25
     centered """
-    TW : Toxic relationship, Knife play, NEEDS TO BE COMPLETED
+    Trigger Warnings : Unhealthy relationship, Bad BDSM etiquette, Lack of safewording, Burn Out, Dissociation, Knifeplay (no depiction of wound)
 
     Enjoy !
     """

@@ -19,13 +19,13 @@ layeredimage sub:
     group mouth auto:
       attribute smile default
     attribute blush
+    attribute blindfold
+    attribute ring_gag
     attribute hair default
     attribute hand default
-    group harnais auto:
-      attribute naked:
-        when naked
-      attribute blouse:
-        when not naked
+    attribute collier
+    attribute harnais_naked
+    attribute harnais_blouse
 
 layeredimage dom:
     xzoom -1.0
@@ -50,6 +50,7 @@ layeredimage dom:
         when not work
       attribute mask default:
         when work
+    attribute blush
     attribute sadism
     attribute hair default
     attribute knife
@@ -58,7 +59,22 @@ layeredimage dom:
     attribute arm_chamber default:
       when not (outside or knife or work)
 
+layeredimage letter:
+    zoom 0.61
+    attribute image default
+
+layeredimage depressedsub:
+    xzoom -1.0
+    zoom 1.1
+    attribute beginning
+    attribute leilaarrive
+    attribute grimace
+    attribute tears
+    
+
 default speaker = "narrator"
+define letter = Character(image="letter")
+define depressedsub = Character(_("Amélie"), who_color="#d11e02", callback=callback_fn, cb_character="depressedsub", image="depressedsub")
 define dom = Character(_("Leïla"), who_color="#60afff", callback=callback_fn, cb_character="dom", image="dom")
 define sub = Character(_("Amélie"), who_color="#d11e02", callback=callback_fn, cb_character="sub", image="sub")
 define narrator = Character(None, callback=callback_fn, cb_character="narrator")

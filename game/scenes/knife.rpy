@@ -296,7 +296,7 @@ label knife:
 
     # Sprite: sadistic/disappointed
     show sub cat naked collier grimace suppliante ring_gag at right
-    show dom sadistic sadism dissapointed sourcil at left
+    show dom sadistic sadism dissapointed at left
     dom "You can’t even answer your Mistress when she asks you a simple question."
     dom "How lower can you possibly sink than that?"
     hide dom
